@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "University of Nebraska-Lincoln"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Nebraksa Union, 1400 R St, Lincoln, NE 68588"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Nebraksa Union - Georgian Suite, 1400 R St, Lincoln, NE 68588"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "40.817646,-96.700486"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -611,7 +611,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -781,3 +781,4 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </ol>
 </div>
 {% endcomment %}
+-->
