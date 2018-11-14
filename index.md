@@ -1,18 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+venue: "University of Nebraska-Lincoln"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Nebraksa Union, 1400 R St, Lincoln, NE 68588"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "40.817646,-96.700486"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "January 3-4, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2019-01-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-01-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["hcc-support@unl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -45,11 +45,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -300,7 +295,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+<!-- <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
   <p>
@@ -508,7 +503,7 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
+</div> {% comment %} End of 'editor' section. {% endcomment %} -->
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
@@ -540,7 +535,21 @@ and our administrator may contact you if we need any extra information.</h4>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-
+  <h4>Attendees have two options for this workshop:</h4>
+<ol>
+	<li><b>Use the Holland Computing Center's JupyterHub:</b>
+		<ul>
+			<li>Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>.</li>
+			<li>NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a>.</li>
+		</ul>
+	</li>
+	<li><b>Install Python and Jupyter Notebook on your Personal Machine:</b>
+		<ul>
+			<li>Follow the directions below to install the software on your personal machine.</li>
+			<li>Make sure you install Python version 3.x (e.g., 3.6 is fine).</li>
+		</ul>
+	</li>
+</ol>
   <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
