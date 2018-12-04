@@ -1,22 +1,22 @@
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1: Programming in Python - January 3rd</h3>
+    <h3>Day 1 - January 3rd</h3>
     <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a></td> </tr>
+      <tr> <td>Before</td> <td><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a> </td> </tr>
       <tr> <td>08:00-08:30</td> <td>Set-up</td> </tr>
-      <tr> <td>08:30-10:30</td> <td>Handling Tabular Data and Repeating Actions with Loops</td> </tr>
+      <tr> <td>08:30-10:30</td> <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming in Python</a></td> </tr>
       <tr> <td>10:30-10:45</td>  <td>Coffee break</td> </tr>
-      <tr> <td>10:45-12:00</td>  <td>Lists, Handling Multiple Files, and Custom Functions</td> </tr>
+      <tr> <td>10:45-12:00</td>  <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming in Python (continued)</a></td> </tr>
       <tr> <td>12:00-13:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00-14:30</td>  <td>Errors, Exceptions and Robust Programming</td> </tr>
+      <tr> <td>13:00-14:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming in Python (continued)</a></td> </tr>
       <tr> <td>14:30-14:45</td>  <td>Coffee break</td> </tr>
-      <tr> <td>14:45-16:30</td>  <td>Debugging Tips and Running Python scripts from the Command Line</td> </tr>
+      <tr> <td>14:45-16:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming in Python (continued)</a></td> </tr>
       <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
       <tr> <td>16:30</td>  <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2: Business Data Analysis with Python - January 4th</h3>
+    <h3>Day 2 - January 4th</h3>
     <table class="table table-striped">
       <tr> <td>08:00-08:30</td>  <td>Set-up</td> </tr>
       <tr> <td>08:30-08:45</td>  <td>Anaconda and Spyder</td> </tr>
@@ -34,4 +34,3 @@
     </table>
   </div>
 </div>
-<p>Schedule is subject to change as Instructors finalize their materials.</p>
