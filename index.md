@@ -326,7 +326,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <ol>
 	<li><b>Use the Holland Computing Center's JupyterHub:</b>
 		<ul>
-			<li>Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>.</li>
+			<li>Attendees with HCC accounts can access JupyterHub by visiting <a href="http://crane.unl.edu">http://crane.unl.edu</a>.</li>
 			<li>NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a>.</li>
 		</ul>
 	</li>
